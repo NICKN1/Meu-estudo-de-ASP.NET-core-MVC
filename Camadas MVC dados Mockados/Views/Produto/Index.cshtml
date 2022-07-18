@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Produtos Cadastrados";
+}
+<h1>Veja a lista de produtos cadastrados no nosso sistema</h1>
+<hr />
+<ul>
+    @foreach(var pro in ViewBag.Produto)
+    {
+        <li>Produto: @pro.NomeProduto</li>
+        <li>Categoria: @pro.NomeProduto</li>
+        <li>Quantida: @pro.Categoria</li>
+        <li>Quantidade: @pro.Quantidade</li>
+        <li>Preço: @pro.Preco</li>
+        <hr />
+    }
+</ul>

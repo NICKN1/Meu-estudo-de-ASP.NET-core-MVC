@@ -1,0 +1,26 @@
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\bin\Debug\net6.0\appsettings.json
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\bin\Debug\net6.0\Camadas MVC dados Mockados.staticwebassets.runtime.json
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\bin\Debug\net6.0\Camadas MVC dados Mockados.exe
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\bin\Debug\net6.0\Camadas MVC dados Mockados.deps.json
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\bin\Debug\net6.0\Camadas MVC dados Mockados.runtimeconfig.json
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\bin\Debug\net6.0\Camadas MVC dados Mockados.dll
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\bin\Debug\net6.0\Camadas MVC dados Mockados.pdb
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\Camadas MVC dados Mockados.csproj.AssemblyReference.cache
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\Camadas MVC dados Mockados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\Camadas MVC dados Mockados.AssemblyInfoInputs.cache
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\Camadas MVC dados Mockados.AssemblyInfo.cs
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\Camadas MVC dados Mockados.csproj.CoreCompileInputs.cache
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\Camadas MVC dados Mockados.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\Camadas MVC dados Mockados.RazorAssemblyInfo.cache
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\Camadas MVC dados Mockados.RazorAssemblyInfo.cs
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\scopedcss\bundle\Camadas MVC dados Mockados.styles.css
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\scopedcss\projectbundle\Camadas MVC dados Mockados.bundle.scp.css
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\Camadas MVC dados Mockados.dll
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\refint\Camadas MVC dados Mockados.dll
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\Camadas MVC dados Mockados.pdb
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\Camadas MVC dados Mockados.genruntimeconfig.cache
+C:\Users\josepj\source\repos\NICKN1\aula10-Introducao_a_programacao_orientada_a_objeto\Aula07\Meus testes\Camadas MVC dados Mockados\obj\Debug\net6.0\ref\Camadas MVC dados Mockados.dll
