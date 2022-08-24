@@ -5,7 +5,7 @@ namespace Api_Teste.Models
     public partial class DbClienteContext : DbContext
     {
         public DbClienteContext()
-        {
+        {   
 
         }
         public DbClienteContext(DbContextOptions<DbClienteContext> options) : base(options)
