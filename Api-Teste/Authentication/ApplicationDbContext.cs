@@ -9,6 +9,7 @@ namespace Api_Teste.Authentication
         {
 
         }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

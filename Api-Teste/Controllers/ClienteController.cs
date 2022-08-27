@@ -1,5 +1,7 @@
-﻿using Api_Teste.Models;
+﻿using Api_Teste.Authentication;
+using Api_Teste.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using System.Collections;
@@ -12,11 +14,22 @@ namespace Api_Teste.Controllers
     [ApiController]
     public class ClienteController : ControllerBase
     {
+        private readonly UserManager<ApplicationUser> userManager;
+        private readonly IConfiguration _configuration;
+        private readonly RoleManager<IdentityRole> roleManager;
+
         private readonly DbClienteContext _context;
 
         public ClienteController(DbClienteContext context)
         {
             _context = context;
+        }
+
+        public ClienteController(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager, IConfiguration configuration)
+        {
+            this.userManager = userManager;
+            this.roleManager = roleManager;
+            _configuration = configuration;
         }
 
         [HttpGet]
@@ -32,19 +45,29 @@ namespace Api_Teste.Controllers
         }
         [HttpPost]
         [Route("/cadastrar")]
-        public IActionResult Create(Cliente cliente)
+        public async Task<IActionResult> Create([FromBody] RegisterModel model)
         {
-            if(cliente == null)
+            var userExists = await userManager.FindByNameAsync(model.UserName);
+            if (userExists != null)
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response 
+                { 
+                    Status = "Error", Message = "Usuário já existe!" 
+                });
+            ApplicationUser user = new ApplicationUser()
             {
-                throw new ArgumentNullException(nameof(cliente));
-            }
-            else
-            {
-                _context.clientes.Add(cliente);
-                _context.SaveChanges();
-                return Ok();
-            }
+                Email = model.Email,
+                SecurityStamp = Guid.NewGuid().ToString(),
+                UserName = model.UserName
+            };
+            var result = await userManager.CreateAsync(user, model.Password);
+            if (!result.Succeeded)
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response
+                {
+                    Status = "Error",
+                    Message = "Erro na criação do usuário. Tente novamente"
+                });
             
+            return Ok(new Response { Status = "Sucess", Message = "Usuário criado." });
         }
         [HttpPut]
         [Route("/atualizar")]

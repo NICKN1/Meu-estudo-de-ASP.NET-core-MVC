@@ -1,6 +1,6 @@
 ﻿namespace Api_Teste.Authentication
 {
-    public class RegisteModel
+    public class RegisterModel
     {
         public string UserName { get; set; }
         public string Email { get; set; }
